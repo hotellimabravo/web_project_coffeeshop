@@ -23,10 +23,6 @@
   box-sizing: border-box;
 }
 
-.header__content {
-  display: flex;
-}
-
 .header__title {
   max-width: 709px;
   padding: 183px 0 0;
@@ -36,7 +32,7 @@
   letter-spacing: 1px;
 }
 
-.header__title_span-accent {
+.header__title_span_accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
