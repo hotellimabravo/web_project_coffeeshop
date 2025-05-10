@@ -175,7 +175,7 @@
 }
 
 .reservation__title {
-  margin: 100px 0 0;
+  margin: 100px 0 80px 0;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -191,7 +191,7 @@
 }
 
 .reservation__fieldset {
-  padding: 80px 0 120px 0;
+  padding: 0 0 120px 0;
   display: flex;
   flex-direction: column;
   border: none;
