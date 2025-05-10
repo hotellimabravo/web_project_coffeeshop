@@ -104,15 +104,17 @@
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar uma mesa</h2>
           <form action="#" class="reservation__form">
-            <fieldset class="form__fieldset">
-              <label for="nome" class="form__label">Nome*</label>
+            <fieldset class="reservation__fieldset">
+              <label for="nome" class="reservation__form-label">Nome*</label>
               <input
                 type="text"
                 id="nome"
                 class="form__input"
                 placeholder="Nome"
               />
-              <label for="numero" class="form__label form__label-margin"
+              <label
+                for="numero"
+                class="reservation__form-label reservation__form-label-margin"
                 >Número de convidados*</label
               >
               <input
@@ -121,11 +123,15 @@
                 class="form__input"
                 placeholder="1-8"
               />
-              <label for="dataehora" class="form__label form__label-margin"
+              <label
+                for="dataehora"
+                class="reservation__form-label reservation__form-label-margin"
                 >Data e hora*</label
               >
               <input type="datetime-local" id="dataehora" class="form__input" />
-              <label for="email" class="form__label form__label-margin"
+              <label
+                for="email"
+                class="reservation__form-label reservation__form-label-margin"
                 >E-mail*</label
               >
               <input
@@ -135,13 +141,16 @@
                 placeholder="email@email.com"
               />
 
-              <button class="form__button form__button-hover">
+              <button
+                class="reservation__form-button reservation__form-button-hover"
+              >
                 Reservar uma mesa
               </button>
 
-              <label class="form__label form__label-checkbox"
-                ><input type="checkbox" class="form__checkbox" />Eu concordo com
-                os termos de uso</label
+              <label
+                class="reservation__form-label reservation__form-label-checkbox"
+                ><input type="checkbox" class="reservation__form-checkbox" />Eu
+                concordo com os termos de uso</label
               >
             </fieldset>
           </form>
